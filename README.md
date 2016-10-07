@@ -28,7 +28,7 @@ cnpm install -g code-push-cli
 * 配置调试环境
 点击Visual Studio Code调试按钮并设置成React Native调试环境
 
-# 应用开发测试与发布
+# 应用开发
 * Clone 代码到本地
 * 运行下面的命令安装npm依赖项
 ```
@@ -47,18 +47,6 @@ react-native run-android
 * 运行Android应用
 ```
 react-native run-android
-```
-* 运行Release版本的Android应用
-```
-react-native run-android --variant=release
-```
-* 生成Release版本的Android安装包
-```
-cd android && ./gradlew assembleRelease
-```
-* 安装Release版本的Android应用
-```
-cd android && ./gradlew assembleRelease && ./gradlew installRelease
 ```
 
 # 移动端应用安装包下载地址
@@ -91,4 +79,24 @@ code-push release-react TopCoder android
 * 发布iOS应用
 ```
 code-push release-react TopCoder ios
+```
+
+# 编译打包移动端APP
+
+## iOS
+[TBD]
+
+## Android
+[TBD]
+* 运行Release版本的Android应用
+```
+react-native run-android --variant=release
+```
+* 生成Release版本的Android安装包
+```
+cd android && ./gradlew assembleRelease
+```
+* 安装Release版本的Android应用
+```
+cd android && ./gradlew assembleRelease && ./gradlew installRelease
 ```
