@@ -1,0 +1,4 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">_ZwiN5dxucLi4p5Q3y-C9pXkuqQTVyFQunMaZ</string>
+    <string name="app_name">TopCoder</string>
+</resources>

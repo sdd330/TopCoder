@@ -1,0 +1,31 @@
+{
+  "plugins": [
+    "esformatter-braces",
+    "esformatter-dot-notation",
+    "esformatter-eol-last",
+    "esformatter-equals",
+    "esformatter-jsx",
+    "esformatter-literal-notation",
+    "esformatter-parseint",
+    "esformatter-quotes",
+    "esformatter-spaced-lined-comment"
+  ],
+  "jsx": {
+    "formatJSX": true,
+    "formatJSXExpressions": true,
+    "attrsOnSameLineAsTag": false,
+    "firstAttributeOnSameLine": false,
+    "alignWithFirstAttribute": false,
+    "removeSpaceBeforeClosingJSX": false,
+    "JSXExpressionsSingleLine": true,
+    "maxAttrsOnTag": 1,
+    "htmlOptions": { // same as the ones passed to js-beautifier.html 
+      "brace_style": "collapse",
+      "indent_char": " ",
+      "indent_size": 2,
+      "max_preserve_newlines": 2,
+      "preserve_newlines": true
+      //wrap_line_length: 250 
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "react",
+    "react-native"
+  ],
+  "env": {
+    "development": {
+      "sourceMaps": "inline"
+    }
+  },
+  "plugins": [
+    "transform-decorators-legacy"
+  ]
+}
