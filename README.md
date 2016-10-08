@@ -43,7 +43,7 @@ npm run dev
 ```
 * 运行iOS应用
 ```
-react-native run-android
+react-native run-ios
 ```
 * 运行Android应用
 ```
