@@ -8,12 +8,15 @@
     "dev": "webpack-dev-server --port 3000 --config web/webpack.config.dev.js --inline --hot --colors --quiet"
   },
   "dependencies": {
+    "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
-    "react": "15.3.2",
+    "react": "^15.3.2",
     "react-native": "0.34.1",
     "react-native-code-push": "^1.14.6-beta",
     "react-native-hockeyapp": "^0.5.0",
+    "react-native-vector-icons": "^2.1.0",
     "react-native-web": "0.0.45",
+    "style-loader": "^0.13.1",
     "url-loader": "^0.5.7"
   },
   "devDependencies": {

@@ -14,7 +14,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: /node_modules\/(?!(react-native-vector-icons)\/).*/,
         loader: 'babel-loader',
         query: {
           cacheDirectory: true,
@@ -26,6 +26,14 @@ module.exports = {
         query: {
           name: '[name].[hash:16].[ext]',
         },
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader',
+      },
+      {
+        test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9-=&.]+)?$/,
+        loader: 'file-loader',
       },
     ],
   },
